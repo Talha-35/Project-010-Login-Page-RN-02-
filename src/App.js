@@ -17,13 +17,17 @@ const App = () => {
         <View style = {{flex : 1}}>
         
         <View style ={styles.title1}>
-          <TextInput keyboardType="email-address"
-            placeholder="E-posta giriniz..."/>
+          <TextInput 
+          secureTextEntry={true}
+          keyboardType="email-address"
+          placeholder="E-posta giriniz..."/>
         </View>     
 
         <View style ={styles.title2}>
-          <TextInput keyboardType="email-address"
-            placeholder="Şifre giriniz..."/>
+          <TextInput 
+          secureTextEntry={true}
+          keyboardType="email-address"
+          placeholder="Şifre giriniz..."/>
         </View>     
         </View>
         <View style = {{flex : 1}}>
